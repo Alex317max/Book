@@ -2,8 +2,8 @@
 //const API_URL = 'https://bookingdasb.onrender.com'; // Или ваш локальный URL для тестов (путь к серверу, если он на внешнем хостинге)
 //const API_URL = 'https://mail.is1c.ru:8000'; //не работает - это проблема самый кринге
 //const API_URL = 'http://10.27.27.91:8000'; //работает если бэк и фронт на одном компе запустить(не наодном компе тоже работает но в локалке) //const API_URL = 'http://127.0.0.1:8000';
-//const API_URL = 'http://217.71.129.131:8000';// нгту но не пашет
-const API_URL = 'http://91.195.179.27:8000';
+const API_URL = 'https://12rd8u-37-192-242-74.ru.tuna.am';// нгту но не пашет
+//const API_URL = 'http://91.195.179.27:8000';
 const getTelegramUserData = () => {
   return window.Telegram?.WebApp?.initDataUnsafe?.user || { id: 123456789 }; // Заглушка для тестов (запуску вне тг)
 };
